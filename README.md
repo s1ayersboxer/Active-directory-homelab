@@ -1,15 +1,14 @@
-# Active-directory-homelab
+## Active Directory Home LAb (Windows Server 2019 + Windows 11 Pro)
 
-Active directory homelab projects in VirtualBox (Windows Server 2019)
+This repository documents the design, deployment, troubleshooting, and validation of a fully functional Active Directory environment built in a VMware Workstation Pro home lab.
+The goal of this project is demonstrate real-world Windows Server, Active Directory, DNS, and client management skills aligned with entry-level IT, Help Desk, and Networking roles.
 
-## Homelabs
+## Project Overview
+This lab simulates a small enterprise Active Directory deployment using modern Microsoft operating systems. It includes a domain controller providing AD DS and DNS services, and a Windows 11 Pro client joined to the domain.
 
-**Active Directory Homelab (VirtualBox / Windows Server 2019)**
-
-- Repo: https://github.com/s1ayersboxer/active-directory-homelab
-
-- Highlights: Domain Controller Build / OUs/Users/Groups, GPO, file share permissions, client joins and login tests
-
-## Project Objective
-
-Deploy and configure a Windows Server 2019 Domain Controller with Active Directory Domain Services (AD DS) and DNS in a VirtualBox Lab Environment.
+The project emphasizes:
+- Correct AD + DNS Configuration
+- Client-domain authentication
+- Networking and firewall troubleshooting
+- Understanding of user vs computer objects
+- Enterprise-style documentation and validation
