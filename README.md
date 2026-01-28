@@ -20,6 +20,7 @@ Virtualization Platform
 - Network Mode: NAT (VMnet8)
 
 Virtual Machines
-Role | Hostname | Operation Systems | Purpose
-Domain Controller | DC01 | Windows Server 2019 Standard (Desktop Experience) | AD DS, DNS
-Client Workstation | CLIENT01 | Windows 11 Pro | Domain-joined endpoint
+| Role | Hostname | Operation Systems | Purpose |
+|------|----------|-------------------|---------|
+| Domain Controller | DC01 | Windows Server 2019 Standard (Desktop Experience) | AD DS, DNS |
+| Client Workstation | CLIENT01 | Windows 11 Pro | Domain-joined endpoint |
