@@ -15,7 +15,7 @@ The project emphasizes:
 
 ## Lab Architecture
 
-Virtualization Platform
+### Virtualization Platform
 - Hypervisor: VMWare Workstation Pro
 - Network Mode: NAT (VMnet8)
 
@@ -24,3 +24,21 @@ Virtual Machines
 |------|----------|-------------------|---------|
 | Domain Controller | DC01 | Windows Server 2019 Standard (Desktop Experience) | AD DS, DNS |
 | Client Workstation | CLIENT01 | Windows 11 Pro | Domain-joined endpoint |
+
+### Network Configuration
+| Component | Configuration |
+|-----------|---------------|
+| Subnet | 192.168.61.0/24|
+| Gateway | 192.168.61.2 |
+| DC01 IP | 192.168.61.132 (Static) |
+| DC01 DNS | 127.0.0.1 |
+| CLIENT01 DNS | 192.168.61.132 |
+
+### Technologies Used
+- Windows Server 2019 Standard Desktop Experience
+- Windows 11 Pro
+- Active Directory Domain Services (AD DS)
+- DNS Server
+- VMWare Workstation Pro
+- NAT-based virtual networking
+- PowerShell and Windows CLI tools
